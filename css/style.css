@@ -102,7 +102,7 @@ header{
   grid-row: 1 / auto;   /*Can you rewrite it?*/
 }
 
-header p{
+.header p{
   color: white;
   font-size: 24px;
   padding: 0 100px;
@@ -111,7 +111,7 @@ header p{
 
 .about, .method, .clients, .contact{
   /*Your Code Here*/
-
+  grid-column: 2 / auto;
 }
 
 .about-image, .method-image, .clients-image, .contact-image{
