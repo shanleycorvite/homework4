@@ -24,6 +24,7 @@ h2{
 nav li{
   display:inline;
   padding-right:20px;
+  text-decoration: none;
 
 }
 
@@ -36,6 +37,9 @@ nav a{
 /*Your Code Here*/
 /*Write selector/rule property to add an underline when
 links in the navigation are in the hover or focus state.*/
+nav a:hover{
+  text-decoration: underline;
+}
 
 
 .skip a{
@@ -68,8 +72,6 @@ footer{
   padding-top: 30px;
   text-align: center;
 }
-
-
 
 
 .container{
