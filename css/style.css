@@ -116,20 +116,19 @@ header{
 
 .about-image, .method-image, .clients-image, .contact-image{
   /*Your Code Here*/
-  grid-column: 1/span6;
+  grid-column: 1 / span 6;
   max-height: 700px;
   overflow: hidden;
-
 }
 
 .about, .about-image{
    /*Your Code Here*/
-
+  grid-row: 2 / span 1;
 }
 
 .method, .method-image{
    /*Your Code Here*/
-
+  grid-row: 3 / span 1;
 }
 
 
