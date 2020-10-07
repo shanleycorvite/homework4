@@ -24,7 +24,6 @@ h2{
 nav li{
   display:inline;
   padding-right:20px;
-  text-decoration: none;
 
 }
 
@@ -37,7 +36,7 @@ nav a{
 /*Your Code Here*/
 /*Write selector/rule property to add an underline when
 links in the navigation are in the hover or focus state.*/
-a:hover{
+nav a:hover{
   text-decoration: underline;
 }
 
@@ -95,8 +94,8 @@ header{
   background-size: cover;       /* Parallax effect */
   color: white;
   height: 400px;                /* Parallax effect */
-  background-image: url(../images/header.jpg);
   /*Your Code Here*/
+  background-image: url(../images/header.jpg);
   /*Set background-image to header.jpg */
   grid-column: 1 / -1;  /*Can you explain what this does?*/
   grid-row: 1 / auto;   /*Can you rewrite it?*/
@@ -156,11 +155,14 @@ background-color: rgba(255, 255, 255, .8);
 @media all and (min-width: 800px){
   nav{
     padding: 30px 0px;
+    text-align: right;
+    align-self: center;
     /*Your code here:*/
   }
 
   .container{
     /*Your code here:*/
+    grid-template-columns: 50px auto
   }
 
   .about, .clients, .method-image, .contact-image{
