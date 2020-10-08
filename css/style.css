@@ -111,7 +111,7 @@ header{
 
 .about, .method, .clients, .contact{
   /*Your Code Here*/
-  grid-column: 2 / auto;
+  grid-column: 2 / span 1;
 }
 
 .about-image, .method-image, .clients-image, .contact-image{
